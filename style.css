@@ -1,0 +1,133 @@
+body {
+    background-color: #add89d;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 3rem, 3rem, 5%, 5%;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: #333333;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 2rem;
+    text-align: center;
+    padding-inline-start: 0rem;
+    background-color: rgb(21, 134, 102);
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0.25rem;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: #dddddd;
+}
+
+nav ul a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul a:active {
+    text-decoration: underline;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+}
+
+#rowOne {
+    column-width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+section {
+    display: flex;
+    gap: 2rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#rowTwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid #2d2d2d;
+    padding-left: 25%;
+    padding-right: 15%;
+    background-color: #add89d;
+}
+
+article {
+    flex: 1;
+    border-radius: 1rem;
+}
+
+article ul {
+    list-style: none;
+}
+
+main article {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+footer {
+    margin: 1rem;
+    display: flex;
+    gap: 2rem 1rem;
+}
+
+.rowFooter {
+    box-sizing: border-box;
+    display: flex;
+}
+
+.columnFooter {
+  box-sizing: border-box;
+  flex: 50%;
+  padding: 10px;
+  background-color: #bbb;
+  align-items: center;
+  justify-content: center;
+  padding-right: 17%;
+
+  border-top: #333333;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  text-align: right;
+} 
+
+#copyrightFooter {
+    padding-top: 10%;
+}
+
+img {
+    max-width: 50%;
+    height: 250px;
+}
